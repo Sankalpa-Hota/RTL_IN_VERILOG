@@ -1,5 +1,5 @@
-//Async FIFO Design
-module ( input clk , rst_n , d ,
+//Async D Flip Flop Design
+module DFF ( input clk , rst_n , d ,
         output qb,
         output reg q );
   assign qb = ~q;
