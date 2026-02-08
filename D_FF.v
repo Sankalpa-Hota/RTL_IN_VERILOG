@@ -3,7 +3,7 @@ module DFF ( input clk , rst_n , d ,
         output qb,
         output reg q );
   assign qb = ~q;
-        always@ (posedge clk ,negedge rst_n)begin
+        always@ (posedge clk or negedge rst_n)begin   //Use or instead of , for setting conditions in @always
     if ( !rst_n ) begin
       q  <= 0;
     end
