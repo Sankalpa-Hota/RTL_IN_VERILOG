@@ -9,3 +9,4 @@ What to Learn in each of the codes :
 8) SIPO => LEft shift
 9) FIBONACCI => Understand how the non blocking works , Curr = curr + prev and prev = curr in same cycle.
 10) Count 1 => Logic building (Use of AND to get the 1's) and FOR loop in combinatorial
+11) Trailing Zeroes => Check out on how we ended the FOR Loop
